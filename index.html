@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fun Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaQueries.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="game-instruction">
+            <h2 id="again">Reset / Retry</h2>
+            <h2>Between 1 and 20 ?</h2>
+        </div>
+        <div class="game-name">
+            <h1>...Guess The Number...</h1>
+        </div>
+        <div class="number-box">
+            <h1 class="number">?</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="left-content">
+            <div class="input">
+                <input class="guess" type="number">
+            </div>
+            <div class="btn">
+            <button class="check">Check !</button>
+            </div>
+        </div>
+        <div class="right-content">
+            <h2 class="message">Start Guessing...</h2>
+            <br>
+            <h2>Score : <span class="score">5</span></h2>
+            <h2>Highscore : <span class="highscore">0</span></h2>
+        </div>
+    </main>
+
+</body>
+</html>
